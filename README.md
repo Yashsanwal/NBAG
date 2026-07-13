@@ -61,8 +61,8 @@ The goal of this project is not just to build a working RAG application, but to 
 ---
 
 ## Project Structure
-rag-pipeline/
-│
+rag-pipeline/ <br>
+│             <br>
 ├── data/
 ├── src/
 │ ├── document_loader.py
