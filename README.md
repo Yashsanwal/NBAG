@@ -63,20 +63,22 @@ The goal of this project is not just to build a working RAG application, but to 
 ## Project Structure
 rag-pipeline/ <br>
 │             <br>
-├── data/
-├── src/
-│ ├── document_loader.py
-│ ├── embedding_model.py
-│ ├── config.py
-│
-├── .env.example
-├── requirements.txt
-├── pyproject.toml
-└── README.md
-
-
-
+├── data/     <br>
+├── src/       <br>
+│ ├── document_loader.py     <br>
+│ ├── embedding_model.py      <br>
+│ ├── config.py               <br>
+│<br>
+├── .env.example             <br>
+├── requirements.txt          <br>
+├── pyproject.toml           <br>
+└── README.md                 <br>
+<br> 
+<br>
+<br>
+<br>
 ---
+
 
 ## Learning Goals
 
