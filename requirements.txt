@@ -18,7 +18,13 @@ langgraph>=0.2.0
 # ============================
 pypdf>=5.0.0
 unstructured>=0.15.0
+unstructured>=0.15
+python-docx>=1.1
+markdown>=3.6
 
+# URL loading (WebBaseLoader)
+beautifulsoup4>=4.12
+requests>=2.32
 # ============================
 # Text Splitting
 # ============================
@@ -27,12 +33,15 @@ langchain-text-splitters>=0.3.0
 # ============================
 # Vector Database
 # ============================
+langchain-chroma>=0.2
 chromadb>=0.5.5
 
 # ============================
 # Embeddings
 # ============================
-numpy>=1.26.4
+langchain-openai>=0.2
+openai>=1.40
+
 
 # ============================
 # BM25 Hybrid Search
@@ -69,3 +78,4 @@ requests>=2.32.0
 # ============================
 ragas>=0.2.0
 datasets>=2.20.0
+

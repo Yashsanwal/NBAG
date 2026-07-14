@@ -1,13 +1,4 @@
-"""
-config.py
-
-All the settings for the RAG pipeline live here, in one place.
-If you want to change the embedding model, batch size, or timeout,
-you only need to edit this file (or your .env file) - nothing else.
-"""
-
 import os
-
 from dotenv import load_dotenv
 load_dotenv()
 
